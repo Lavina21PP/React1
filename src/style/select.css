@@ -1,0 +1,54 @@
+.select .krpselect {
+  width: 100%;
+  position: relative;
+}
+.select Button {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  height: 49px;
+  font-size: 16px;
+  padding-left: 40px;
+  justify-content: start;
+  text-transform: none;
+}
+.select .icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.select .value {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  z-index: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #3b3b3b;
+}
+.select .value Button {
+  width: 100%;
+  padding: 8px 15px;
+  background-color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-transform: none;
+  color: #000;
+  border-radius: 0;
+  border: 1px solid #d9d9d9;
+  height: 40px;
+}
+.select .value Button:hover {
+  background-color: #ddd;
+}
+
+@media only screen and (min-width: 769px) {
+  .select Button {
+    height: 53px;
+  }
+}

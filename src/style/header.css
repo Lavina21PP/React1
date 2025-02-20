@@ -1,0 +1,19 @@
+/* .header{
+    background-color: black;
+}
+.header .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 0;
+}
+.header .box .logo{
+    width: 100px;
+}
+.header .box .krpuser{
+    width: 48px;
+    height: 48px;
+    background-color: rgb(102, 102, 102);
+    border-radius: 50%;
+    overflow: hidden;
+} */

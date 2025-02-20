@@ -1,0 +1,41 @@
+.container {
+  max-width: 94%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* กำหนดขนาดของ scrollbar */
+::-webkit-scrollbar {
+  display: none;
+  /* width: 7px; 
+    height: 7px; */
+}
+/* กำหนดสีของ track (พื้นหลังของ scrollbar) */
+::-webkit-scrollbar-track {
+  background: #ffffff; /* สีพื้นหลังของ track */
+  border-radius: 0px; /* มุมโค้งของ track */
+}
+/* กำหนดสีของ thumb (แถบที่เลื่อน) */
+::-webkit-scrollbar-thumb {
+  background: #5b8ce1; /* สีของ thumb */
+  border-radius: 0px; /* มุมโค้งของ thumb */
+}
+/* เปลี่ยนสีของ thumb เมื่อ hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4c6fab; /* สีของ thumb เมื่อ hover */
+}
+/* กำหนดการเปลี่ยนแปลง scrollbar เมื่ออยู่ในสถานะ drag */
+::-webkit-scrollbar-thumb:active {
+  background: #c0c0c0; /* สีของ thumb เมื่อ drag */
+}
+
+.sign, .home, .footer{
+  Button {
+    font-family: "Roboto", "Sarabun", "Phetsarath_OT", sans-serif;
+    color: #000000;
+    text-transform: none;
+    flex: 0 0 auto;
+    min-width: 0;
+    font-size: 1rem;
+  }
+}
